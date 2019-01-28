@@ -1,4 +1,4 @@
-# Z3d Hacking / general notes
+# z3d Hacking / general notes
 This is intended as an archive of my various z3d romhacks and notes. Hopefully someone will be willing take what this and continue on. Each project's folder has its own README.md that explains it a bit more of the specifics of each project.
 
 Basically consider all of these projects abandoned for the time being. I might update this repo if I find notes / various related stuff, but I have no plans to improve these or expand on them in any way. If someone feels in incline to try to, I would accept pull request.
