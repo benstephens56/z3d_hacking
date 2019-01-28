@@ -1,4 +1,4 @@
-# z3d Hacking / general notes
+# Z3d Hacking / general notes
 This is intended as an archive of my various z3d romhacks and notes. Hopefully someone will be willing take what this and continue on. Each project's folder has its own README.md that explains it a bit more of the specifics of each project.
 
 Basically consider all of these projects abandoned for the time being. I might update this repo if I find notes / various related stuff, but I have no plans to improve these or expand on them in any way. If someone feels in incline to try to, I would accept pull request.
@@ -48,6 +48,8 @@ I currently have no plans on doing either of those things I suggested, but if so
 ## License
 
  Some of the files in this repo are modified versions of files from [devkitPro](https://devkitpro.org/wiki/Getting_Started) and [libctru](https://github.com/smealum/ctrulib). Namely the Makefiles and some implementations of the syscalls wrapper functions. To comply with their licensing here is the copy of their license / how I'm licensing this repo.
+
+------------------------------------------------------------------------
 
   This software is provided 'as-is', without any express or implied
   warranty.  In no event will the authors be held liable for any
