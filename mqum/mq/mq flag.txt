@@ -1,0 +1,66 @@
+MQ flag access every frame:
+(duplicates indicate counts)
+
+	002F176C idk
+	
+	0042C62C idk
+	
+	0042ADF8 idk
+	
+	0042AFEC idk
+	
+	002FC378
+	002FC378
+	002FC378
+	002FC378
+	002FC378
+	
+	00419900 culling
+	
+	002FFC98 idk
+	
+	0041AB10 x-axis for the circle pad
+	
+	0041636C idk
+	
+	003415C8
+	003415C8
+	003415C8
+	003415C8
+	003415C8
+	003415C8
+	
+	003F10E4 idk
+	
+	00479088 mirroring
+	
+	0041901C
+	
+	0042DAF0
+	
+	004391E8
+	
+	002F0F40
+	
+	002EF024
+	
+	002F1618
+	002F1618
+	002F1618
+	002F1618
+	002F1618
+	
+	00352dcc take double damage
+	
+	002eafc4 dungeon select
+
+Other Checks:
+
+	int32_t dungeon_select() = 0x2eafb4
+		-3 xrefs
+			once when entering deku tree
+			once when loading file
+			idk 3rd
+		-populates the scene file name table with the first 0xd locations
+			-first  0xd are all of the (mini) dungeons
+			

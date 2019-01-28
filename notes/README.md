@@ -1,0 +1,1 @@
+Most of my notes are in the form of a binary ninja database and assorted text files scattered accrose my harddrive. The binja databases cannont be distributed as it contains the binary in the database so I need to transcribe information from them. This will probably be updated in the near future as I get around to doing that or as I my various note files.
