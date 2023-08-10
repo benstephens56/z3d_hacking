@@ -5,8 +5,13 @@ import subprocess
 import struct
 
 patchData = {
-	0x002eafcc : b'\x01', #dungeon select: `cmp r0, #0` immediate changed to `#1`
-	0x00352dd0 : b'\x01', #double damage:  `cmp r0, #0` immediate changed to `#1`
+    0x002C05A0 : b'\x0F', #invert first person gyro x-axis
+    0x002D8D20 : b'\x0F', #invert targetted gyro x-axis
+    0x002FC378 : b'\x0F', #culling effects and projectiles
+    0x00419900 : b'\x0F', #main culling
+    0x0041AB10 : b'\x0F', #invert circle pad x-axis
+    0x0042DAF0 : b'\x0F', #mirror pause menu controls
+    0x00479088 : b'\x0F', #mirror graphics
 }
 
 
