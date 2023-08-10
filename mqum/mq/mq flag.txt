@@ -1,6 +1,10 @@
 MQ flag access every frame:
 (duplicates indicate counts)
 
+	002C05A0 invert first person gyro x-axis
+
+	0x002D8D20 invert targetted gyro x-axis
+
 	002F176C idk
 	
 	0042C62C idk
@@ -9,7 +13,7 @@ MQ flag access every frame:
 	
 	0042AFEC idk
 	
-	002FC378
+	002FC378 culling effects and projectiles
 	002FC378
 	002FC378
 	002FC378
@@ -36,7 +40,7 @@ MQ flag access every frame:
 	
 	0041901C
 	
-	0042DAF0
+	0042DAF0 mirror pause menu controls
 	
 	004391E8
 	
